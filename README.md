@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# React Account-Books
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Stack
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+- React-router-dom
+- json-server
 
-### `npm start`
+#### Css
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- css module
+- UI glassmorphism 활용
 
-### `npm test`
+> 구현기능
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 날짜 생성
+- 회계부 CRUD기능
+- 날짜 및 카드 전체 삭제
+- 체크기능
+- 지출 목록 이전/다음날짜로 이동
+- 일별 합계 기능
+- json-server를 활용해 db.json에 저장하여 rest api를 통해 fecth
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##### HOME
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Main Home](https://user-images.githubusercontent.com/54394848/118908549-97369a80-b95c-11eb-9a11-e0ba7d654e8a.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##### Register
 
-### `npm run eject`
+![regiter](https://user-images.githubusercontent.com/54394848/118908860-1b891d80-b95d-11eb-9c39-ea14240e4960.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+##### Day Add
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Day Add](https://user-images.githubusercontent.com/54394848/118908861-1c21b400-b95d-11eb-99c1-a3f0a5ceab4d.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+##### Day List
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Day List](https://user-images.githubusercontent.com/54394848/118909393-ea5d1d00-b95d-11eb-9c32-e600e58064ba.png)
 
-## Learn More
+##### Edit
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Edit](https://user-images.githubusercontent.com/54394848/118908886-29d73980-b95d-11eb-9852-e4e499750350.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+##### Delete
 
-### Code Splitting
+![Delete](https://user-images.githubusercontent.com/54394848/118908922-378cbf00-b95d-11eb-988a-8b01cca7d2aa.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+##### List
 
-### Analyzing the Bundle Size
+![List](https://user-images.githubusercontent.com/54394848/118908698-d4029180-b95c-11eb-9ba8-ca99f2c1d161.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+#### fiexd
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[] 반응형으로 header 부분과 전체적인 부분 수정
+[] 삭제시 합계금액을 state로 상태 관리 해주기
+[] 다크모드 추가
+[] 생성시 이미지 추가
+[] 기능(ex: 그래프를 통해 일별 지출내역) 추가

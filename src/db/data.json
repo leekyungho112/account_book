@@ -1,0 +1,56 @@
+{
+  "days": [
+    {
+      "id": 1,
+      "day": 1
+    },
+    {
+      "day": 2,
+      "id": 2
+    }
+  ],
+  "account": [
+    {
+      "day": "1",
+      "text": "학용품",
+      "price": "25000",
+      "isDone": false,
+      "id": 2
+    },
+    {
+      "day": "1",
+      "text": "아이스크림",
+      "price": "4000",
+      "isDone": false,
+      "id": 3
+    },
+    {
+      "day": "1",
+      "text": "선풍기",
+      "price": "150000",
+      "isDone": false,
+      "id": 4
+    },
+    {
+      "day": "1",
+      "text": "Tv",
+      "price": "3500000",
+      "isDone": false,
+      "id": 5
+    },
+    {
+      "day": "1",
+      "text": "노트북",
+      "price": "300000",
+      "isDone": false,
+      "id": 6
+    },
+    {
+      "day": "1",
+      "text": "아이패드",
+      "price": "1",
+      "isDone": false,
+      "id": 7
+    }
+  ]
+}
